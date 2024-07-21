@@ -24,7 +24,6 @@ h1 {
   font-family: tilt neon;
   color: white;
   text-shadow: 0 0 5px #4682B4;
-  margin: 10px;
 }
 h1:hover{
     text-shadow: #4682B4;
@@ -33,7 +32,6 @@ h1:hover{
 ul {
   color: white;
   text-shadow: 0 0 5px #4682B4;
-  margin: 10px;
 }
 
 li {
@@ -41,14 +39,11 @@ li {
   background-color: rgba(90, 138, 90, 0.137);
   word-wrap: break-word;
   border-radius: 10px;
-  padding: 10px;
 }
 
 .material-symbols-outlined {
     background-color: rgba(0, 0, 0, 0.603);
-  padding: 10px;
   border-radius: 10px;
-  margin: 10px;
   display: flex;
   justify-content: center;
   cursor: pointer;
@@ -60,7 +55,6 @@ a {
   font-family: kode-mono;
   font-size: 30pt;
   background-color: black;
-  margin: 10px;
 }
 a:hover {
   text-shadow: 0 0 5px #4682B4;
