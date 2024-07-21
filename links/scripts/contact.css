@@ -11,7 +11,7 @@
   box-sizing: border-box;
   font-family: "tilt neon";
   color: rgb(255, 255, 255);
-  font-size: 16pt;
+  font-size: medium;
   text-align: center;
 }
 
@@ -20,7 +20,7 @@ body {
 }
 
 h1 {
-  font-size: 40pt;
+  font-size: 20pt;
   font-family: tilt neon;
   color: white;
   text-shadow: 0 0 5px #4682B4;
@@ -35,9 +35,7 @@ ul {
 }
 
 li {
-  margin-bottom: 20px;
   background-color: rgba(90, 138, 90, 0.137);
-  word-wrap: break-word;
   border-radius: 10px;
 }
 
