@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "neon-tubes-2-regular";
+    src: url("https://assets.codepen.io/2585/NeonTubes2.otf") format("woff"),
+      url("https://assets.codepen.io/2585/NeonTubes2.otf") format("opentype"),
+      url("https://assets.codepen.io/2585/NeonTubes2.otf") format("truetype");
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "tilt neon";
+    color: rgb(255, 255, 255);
+    font-size: 16pt;
+    font-weight: 100;
+    transition: all 2s;
+    text-align:center;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  body {
+    background: hsl(0, 0%, 5%);
+    background-size: cover;
+    scroll-behavior: smooth;
+    transition: all 2s;
+  }
+  
+  p {
+    margin: 15px;
+    text-align: center;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px  #4682B4, 0 0 5px  #4682B4, 0 0 5px  #4682B4;
+    font-family: tilt neon;
+  }
+  
+  p:hover {
+    box-shadow: 0 0 6px #4682B4 ;
+    text-shadow:0 0 5px  #4682B4, 0 0 5px  #4682B4, 0 0 5px  #4682B4;
+    transition: 1s;
+  }
+  
+  p::selection {
+    background-color: rgba(29, 151, 131, 0.719);
+  }
+  
+  h1 {
+    font-size: 40pt;
+    font-family: tilt neon;
+    color: white;
+    text-shadow: 0 0 5px  #4682B4, 0 0 5px  #4682B4, 0 0 5px  #4682B4;
+    margin: 10px;
+    
+  }
+  
+  h1:hover{
+    box-shadow: 0 0 6px #4682B4 ;
+    border-radius: 1000px;
+    text-shadow:0 0 5px  #4682B4, 0 0 5px  #4682B4, 0 0 5px  #4682B4;
+    transition: 1s;
+  }
+  ul {
+    color: white;
+    text-shadow: 0 0 5px  #4682B4, 0 0 5px  #4682B4, 0 0 5px  #4682B4;
+    margin-right: 100px;
+    text-align: justify;
+    margin-left: 100px;
+  }
+  ul:hover{
+    box-shadow: 0 0 6px #4682B4 ;
+    text-shadow:0 0 5px  #4682B4, 0 0 5px  #4682B4, 0 0 5px  #4682B4;
+    transition: 1s;
+  }
+  
+  li {
+    margin-bottom: 20px;
+  }
+  
+  .material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+  }
+  
+  a {
+    color: white;
+    text-shadow:0 0 5px  #4682B4, 0 0 5px  #4682B4, 0 0 5px  #4682B4;
+    font-family: kode-mono;
+    font-size: 30pt;
+    margin-left: 30px;
+    background-color: black;
+    margin-bottom: 100px;
+  }
+  a:hover {
+    box-shadow: 0 0 6px rgb(6, 139, 66);
+    text-shadow:0 0 5px  #4682B4, 0 0 5px  #4682B4, 0 0 5px  #4682B4;
+    transition: 1s;
+    background-color: rgba(0, 0, 0, 0.075);
+  }
+  

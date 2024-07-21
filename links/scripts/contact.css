@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "neon-tubes-2-regular";
+  src: url("https://assets.codepen.io/2585/NeonTubes2.otf") format("woff"),
+    url("https://assets.codepen.io/2585/NeonTubes2.otf") format("opentype"),
+    url("https://assets.codepen.io/2585/NeonTubes2.otf") format("truetype");
+}
+
+* {
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+  font-family: "tilt neon";
+  color: rgb(255, 255, 255);
+  font-size: 16pt;
+  text-align: center;
+}
+
+body {
+  background-color: hsl(0, 0%, 5%);
+}
+
+h1 {
+  font-size: 40pt;
+  font-family: tilt neon;
+  color: white;
+  text-shadow: 0 0 5px #4682B4;
+  margin: 10px;
+}
+h1:hover{
+    text-shadow: #4682B4;
+}
+
+ul {
+  color: white;
+  text-shadow: 0 0 5px #4682B4;
+  margin-right: 100px;
+  text-align: justify;
+  margin-left: 100px;
+}
+
+li {
+  margin-bottom: 20px;
+  background-color: rgba(90, 138, 90, 0.137);
+  word-wrap: break-word;
+  border-radius: 10px;
+  text-align: justify;
+  padding: 10px;
+}
+
+.material-symbols-outlined {
+    background-color: rgba(0, 0, 0, 0.603);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+a {
+  color: white;
+  text-shadow: 0 0 5px #4682B4;
+  font-family: kode-mono;
+  font-size: 30pt;
+  margin-left: 30px;
+  background-color: black;
+  margin-bottom: 100px;
+}
+a:hover {
+  text-shadow: 0 0 5px #4682B4;
+  transition: 1s;
+  background-color: rgba(0, 0, 0, 0.075);
+}

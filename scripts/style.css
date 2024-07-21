@@ -1,0 +1,169 @@
+@font-face {
+  font-family: "neon-tubes-2-regular";
+  src: url("https://assets.codepen.io/2585/NeonTubes2.otf") format("woff"),
+    url("https://assets.codepen.io/2585/NeonTubes2.otf") format("opentype"),
+    url("https://assets.codepen.io/2585/NeonTubes2.otf") format("truetype");
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  font-family: "tilt neon";
+  text-align: center;
+  font-size: 20px;
+  transition: all 5s;
+}
+*::selection {
+  background-color: #0f6358;
+}
+
+body {
+  font-weight: lighter;
+  color: white;
+  background-color: hsl(0, 0%, 5%);
+  font-weight: 100;
+}
+/*nav bar start*/
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin: 5px;
+  border-radius: 1px;
+}
+
+.navbar a:hover {
+  border-width: 1px;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  background-color: #262727;
+}
+
+.navbar a.active {
+  color: white;
+}
+
+.navbar .icon {
+  display: none;
+}
+
+.content {
+  margin-top: 60px; /* Adjust according to navbar height */
+  padding: 20px;
+}
+
+@media screen and (max-width: ) {
+  .navbar a:not(:first-child) {
+    display: none;
+  }
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+  .navbar.responsive a.icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+/*nav bar end*/
+h1 {
+  text-align: center;
+  text-shadow: 0 0 5px #4682b4, 0 0 5px #4682b4, 0 0 5px #4682b4;
+  font-family: "tilt neon";
+  font-style: normal;
+  font-weight: 10;
+  font-size: 60px;
+  transition: all 2s;
+}
+h1:hover {
+  text-shadow: 0 0 5px #ffa07a, 0 0 5px #ffa07a, 0 0 5px #ffa07a;
+  transition: all 2s;
+}
+p {
+  font-size: medium;
+  font-weight: lighter;
+  margin: 10px;
+  text-align: justify;
+  padding: 10px;
+  color: #7f9cb3;
+  font-family: "tilt neon";
+  border-radius: 10px;
+  transition: border-radius, border 2s;
+  border: transparent solid 1px;
+}
+p:hover {
+  border: #4682b4 solid 1px;
+  box-shadow: #4682b4;
+  border-radius: 10px;
+  transition: all 2s;
+}
+.images {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.images img {
+  max-width: 40%; /* Optional: Ensure the image doesn't exceed container width */
+  height: fit-content;
+  border-radius: 10px;
+  margin: 10px;
+}
+.vid1 {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.vid1 iframe {
+  max-width: 500%; /* Optional: Ensure the image doesn't exceed container width */
+  max-height: max-content;
+  border-radius: 10px;
+  border-color: #4682b4;
+  border: solid 1px;
+  transition: border 2s;
+}
+h2 {
+  font-size: x-large;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  color: #ffffff;
+  font-family: "tilt neon";
+  text-shadow: 0 0 5px #4682b4, 0 0 5px #4682b4, 0 0 5px #4682b4;
+  transition: all 2s;
+}
+h2:hover {
+  transition: all 2s;
+  text-shadow: 0 0 5px #ffa07a, 0 0 5px #ffa07a, 0 0 5px #ffa07a;
+}
+.h2img {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.h2img img {
+  max-width: 100%; /* Optional: Ensure the image doesn't exceed container width */
+  height: fit-content;
+  border-radius: 10px;
+  margin: 10px;
+}
+
