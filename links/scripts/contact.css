@@ -33,9 +33,7 @@ h1:hover{
 ul {
   color: white;
   text-shadow: 0 0 5px #4682B4;
-  margin-right: 100px;
-  text-align: justify;
-  margin-left: 100px;
+  margin: 10px;
 }
 
 li {
@@ -43,7 +41,6 @@ li {
   background-color: rgba(90, 138, 90, 0.137);
   word-wrap: break-word;
   border-radius: 10px;
-  text-align: justify;
   padding: 10px;
 }
 
@@ -62,9 +59,8 @@ a {
   text-shadow: 0 0 5px #4682B4;
   font-family: kode-mono;
   font-size: 30pt;
-  margin-left: 30px;
   background-color: black;
-  margin-bottom: 100px;
+  margin: 10px;
 }
 a:hover {
   text-shadow: 0 0 5px #4682B4;
